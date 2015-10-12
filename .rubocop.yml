@@ -1,0 +1,24 @@
+AllCops:
+  Exclude:
+    - 'vendor/**/*'
+    - 'spec/fixtures/**/*'
+    - 'db/schema'
+
+Metrics/LineLength:
+  Enabled: false
+Style/MultilineOperationIndentation:
+  Enabled: false
+Style/Semicolon:
+  # Allow ; to separate several expressions on the same line.
+  AllowAsExpressionSeparator: true
+Style/AlignParameters:
+  Enabled: false
+Style/AlignHash:
+  Enabled: false
+Style/AlignArray:
+  Enabled: false
+Metrics/CyclomaticComplexity:
+  Max: 20
+
+Documentation:
+  Enabled: false
