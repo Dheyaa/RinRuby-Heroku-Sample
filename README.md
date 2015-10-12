@@ -10,3 +10,5 @@ This app serves as a sample to get you started using RinRuby on heroku.
 
 ## Details
 This app uses (heroku-buildpack-multi)[https://github.com/ddollar/heroku-buildpack-multi] to run both Ruby and R in the same build. This works with the `.buildpacks` file to define the buildpacks to use. 
+
+**init.r**: The init.r file is where you can define the `R` Packages that you want to include in the installation.
