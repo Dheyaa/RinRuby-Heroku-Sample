@@ -32,7 +32,6 @@ doc/
 *.DS_Store
 *.idea
 *.Certs
-/.dropbox
 
 #ignore user paperclip photos
 /public/system/
@@ -43,19 +42,3 @@ doc/
 
 # Ignore rbenv
 .ruby-version
-
-
-config/initializers/environment_variables.rb
-.dropbox.attr
-*.dump
-
-Icon/r
-Icon
-# I found a post that says that because my folder is in the root level directory, apple puts in this
-# Studpid icon/r file. This apparently is how to ignore it. Heres to hoping it works.
-# http://blog.bitfluent.com/post/173740409/ignoring-icon-in-gitignore
-Icon^M^M
-
-Icon
-
-dump.rdb
